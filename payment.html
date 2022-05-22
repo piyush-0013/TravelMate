@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment gateway</title>
+    <style>
+        form{
+            width:350px;
+            height: 550px;
+            border: 1px solid brown;
+            left:40%;
+            top:10%;
+            position:absolute;
+            padding:15px 10px;
+            background-color: seashell;
+        }
+        h1{
+             text-align:center;
+        }
+        img{
+            width: 50px;
+            height: 30px;
+            display:inline-flex;
+        }
+        p{
+            font-weight: bold;
+        }
+        input[type='submit']{
+            width: 50%;
+            margin: 15px 0;
+            height: 40px;
+            background-color: rgb(34, 204, 0);
+            border: 1px solid black;
+            border-radius: 6px;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Payment details</h1>
+        <hr>
+        <p>Cards Accepted:</p>
+        <img src="https://zeevector.com/wp-content/uploads/2021/03/rupay-logo.png" height="60px">
+        <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2021/01/31/2452136-2043571422.png?itok=eZrnLyFG">
+        <img src="https://logos-world.net/wp-content/uploads/2020/04/Visa-Logo-2000-2006.png">
+        <img src="https://png.pngitem.com/pimgs/s/12-123297_paytm-transparent-logo-paytm-logo-paytm-logo-png.png">
+        <p>Card Holder Name:</p>
+        <input type="text" name="cardholder" id="cardholder" placeholder="Enter Name" required>
+        <p>Card Number:</p>
+        <input type="number" name="cardnumber" placeholder="Enter Card Number" required>
+        <div class="row">
+             <div class="no1">
+                <p>Expiry date:</p> 
+               <input type="date" name="expire date" id="expire date" required>
+             </div>
+             <div class="no2">
+                <p>CVV:</p>
+                <input type="password" name="cvv" id="cvv" placeholder="***" required>
+                <br><br>
+                <input type="submit" value="confirm payment">
+             </div>
+        </div>
+    </form>
+</body>
+</html>
