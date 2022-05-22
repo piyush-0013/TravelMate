@@ -415,7 +415,7 @@ label{
     height:350px;
     width:410px;
     border: 2px solid black;
-    background-image: url("/images/singapore1.webp");
+    background-image: url("images/singapore1.webp");
     border-radius: 6px;
     transition: 200ms;
     background-repeat: no-repeat;
@@ -426,7 +426,7 @@ label{
     height:350px;
     width:410px;
     border: 2px solid black;
-    background-image:url("/images/rajasthan1.jpeg");
+    background-image:url("images/rajasthan1.jpeg");
     border-radius: 6px;
     transition: 200ms;
     background-repeat: no-repeat;
@@ -437,7 +437,7 @@ label{
     height:350px;
     width:410px;
     border: 2px solid black;
-    background-image:url("/images/thailand1.jpg");
+    background-image:url("images/thailand1.jpg");
     border-radius: 6px;
     transition: 200ms;
     background-repeat: no-repeat;
