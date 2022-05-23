@@ -316,20 +316,20 @@ h2{
     text-decoration: underline;
 }
 #div2{
-    border:2px solid rgb(10, 10, 179);
-    width: 340px;
-    height: 330px;
-    border-radius: 8px;
-    background-color: rgba(221, 217, 212, 0.548);
+    border:2px solid rgb(4, 4, 123);
+    width: 440px;
+    height: 430px;
+    border-radius: 18px;
+    background-color: rgb(27, 125, 177);
     padding:10px;
     padding-top: 10px;
     margin-left: 510px;
     margin-top: 33px;
 }
 label{
-    font-size: 20px;
+    font-size: 35px;
     font-family:serif;
-    color: rgb(22, 22, 202);
+    color: rgb(6, 6, 51);
     text-decoration: underline; 
 }
 .name{
